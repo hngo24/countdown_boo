@@ -1,6 +1,6 @@
 @font-face {
 	font-family: loosNormalMedium;
-	src: url("../LoosNormalMedium.otf");
+	src: url("LoosNormalMedium.otf");
 }
 body {
     margin: 0;
@@ -22,7 +22,7 @@ body {
     font-size: 150px;
     color: #cacdbe;
     display: block;
-	width: 200px;
+	width: 275px;
 	text-align: center;
 }
 
