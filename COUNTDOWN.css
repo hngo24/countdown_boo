@@ -1,6 +1,6 @@
 @font-face {
-	font-family: loosNormalMedium;
-	src: url("../LoosNormalMedium.otf");
+	font-family: 'loosNormalMedium';
+	src: url('../LoosNormalMedium.otf');
 }
 body {
     margin: 0;
