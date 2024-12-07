@@ -1,0 +1,36 @@
+@font-face {
+	font-family: loosNormalMedium;
+	src: url("../LoosNormalMedium.otf");
+}
+body {
+    margin: 0;
+    font-family: "Loos Normal Medium";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #19323c;
+}
+
+.countdownSTYLE span {
+    display: inline-block;
+    margin: 10px;
+}
+
+.countdownSTYLE span.value {
+    font-family: loosNormalMedium;
+    font-size: 150px;
+    color: #cacdbe;
+    display: block;
+	width: 200px;
+	text-align: center;
+}
+
+.countdownSTYLE span.label {
+    font-family: loosNormalMedium;
+    font-size: 40px;
+    color: #cacdbe;
+    display: block;
+    margin:auto;
+	text-align: center;/* Adjust this value as needed to create space between the label and value */
+}
