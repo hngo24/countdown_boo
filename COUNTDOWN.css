@@ -4,7 +4,7 @@
 }
 body {
     margin: 0;
-    font-family: "Loos Normal Medium";
+    font-family: loosNormalMedium;
     display: flex;
     justify-content: center;
     align-items: center;
