@@ -17,7 +17,7 @@
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 10, 2025 23:59:59").getTime();
+var countDownDate = new Date("Aug 30, 2025 15:37:10").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -34,10 +34,12 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Add leading zero if needed
-    days = ("0" + days).slice(-2);
     hours = ("0" + hours).slice(-2);
     minutes = ("0" + minutes).slice(-2);
     seconds = ("0" + seconds).slice(-2);
+	
+	// Adjust days to be 4 digits if needed
+	days = days < 10 ? "0" + days : days;
     
     // Output the result in the corresponding elements
     document.getElementById("days").innerHTML = days;
