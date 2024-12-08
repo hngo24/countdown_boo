@@ -1,10 +1,10 @@
 @font-face {
-	font-family: 'loosNormalMedium';
-	src: url('../LoosNormalMedium.otf');
+	font-family: loosNormalMedium;
+	src: url("../LoosNormalMedium.otf");
 }
 body {
     margin: 0;
-    font-family: loosNormalMedium;
+    font-family: "Loos Normal Medium";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,16 +19,16 @@ body {
 
 .countdownSTYLE span.value {
     font-family: loosNormalMedium;
-    font-size: 150px;
+    font-size: 10vw;
     color: #cacdbe;
     display: block;
-	width: 275px;
+	width: 17vw;
 	text-align: center;
 }
 
 .countdownSTYLE span.label {
     font-family: loosNormalMedium;
-    font-size: 40px;
+    font-size: 2vw;
     color: #cacdbe;
     display: block;
     margin:auto;
