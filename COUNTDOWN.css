@@ -10,11 +10,12 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #19323c;
+	overflow: hidden;
 }
 
 .countdownSTYLE span {
     display: inline-block;
-    margin: 10px;
+    margin: 1vw;
 }
 
 .countdownSTYLE span.value {
